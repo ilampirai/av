@@ -1,0 +1,4 @@
+av
+==
+
+AV in mean
