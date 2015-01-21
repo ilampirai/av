@@ -1,14 +1,18 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
-    return "Welcome to av.";
-  };
 
-  Template.hello.events({
-    'click input': function () {
-      // template data, if any, is available in 'this'
-      if (typeof console !== 'undefined')
-        console.log("You pressed the button");
-    }
+  Template.videogroup.helpers({
+    video: [
+      { text: "This is task 1" },
+	  { text: "This is task 1" },
+	  { text: "This is task 1" },
+	  { text: "This is task 1" },
+	  { text: "This is task 1" },
+	  { text: "This is task 1" },
+	  { text: "This is task 1" },
+	  { text: "This is task 1" },
+      { text: "This is task 2" },
+      { text: "This is task 3" }
+    ]
   });
 }
 
